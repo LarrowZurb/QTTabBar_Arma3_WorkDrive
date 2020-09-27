@@ -5,7 +5,7 @@ QTTabBar Buttons -
   * "WorkDrive Mount_Dismount" will mount/unmount P: drive
   * "Addon Builder" will build an addon allowing you to choose project folder, addon folder, and select or create an new sign key to use.
   
-Please open up CheckForP.js and set your particular folder paths as described in the top of the file e.g
+Please open up _CheckForP.js_ and set your particular folder paths as described in the top of the file e.g
 
 ```javascript
 //Paths, fill these in to point to your installed items
@@ -34,3 +34,13 @@ var DSSignFilePrefix = "LARs_";
 //DO NOT EDIT BELOW HERE!!
 ```
 
+Then edit each buttons configuration -
+* by adding each button to QTTabBar and _right click > edit_ and set
+  * the buttons icon
+  * and __Path__ to where the supplied script _CheckForP.js_ has been placed
+
+* or directly in the button file provided
+```XML
+<IconResource>"D:\Utils\SteamUtilities\steamapps\common\Arma 3 Tools\WorkDrive\WorkDrive.exe", 0</IconResource>
+<Path>F:\Downloads\Downloads\system\Win10\System Utils\QTTabBar\Scripts\CheckForP.js</Path>
+```
