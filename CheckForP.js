@@ -1,13 +1,26 @@
 
 //Paths, fill these in to point to your installed items
-var ArmaToolsPath = "D:\\Utils\\SteamUtilities\\steamapps\\common\\Arma 3 Tools";	//Installed Arma Tools Directory
 
-var PDriveMountPath = "E:\\ArmAWork"; //Path used as P: mount directory
-var FileBankInclude = ArmaToolsPath + "\\FileBank\\include.lst";	//Path to Include list used by AddonBuilder. Include list provides file type extensions of files to be included in the addon build
-var AddonsBuildFolderPath = "P:\\Lars";	//Base path to your WIP addons
-var AddonsFolderPath = "F:\\My Documents\\Arma 3 - Other Profiles\\Mods\\My Mods";	//Base path to you installed addons e.g where @SomeMod are stored
-var DSSignKeysPath = "F:\\Downloads\\My Games CFG\\ARMA3\\editing\\mod_keys";	//Base Path where you keep your private build keys
-var DSSignFilePrefix = "LARs_";	//Prefix appplied to any created sign Keys
+//Installed Arma Tools Directory
+var ArmaToolsPath = "D:\\Utils\\SteamUtilities\\steamapps\\common\\Arma 3 Tools";
+
+//Path used as P: mount directory
+var PDriveMountPath = "E:\\ArmAWork";
+
+//Path to Include list used by AddonBuilder. Include list provides file type extensions of files to be included in the addon build
+var FileBankInclude = ArmaToolsPath + "\\FileBank\\include.lst";
+
+//Base path to your WIP addons
+var AddonsBuildFolderPath = "P:\\Lars";
+
+//Base path to you installed addons e.g where @SomeMod are stored
+var AddonsFolderPath = "F:\\My Documents\\Arma 3 - Other Profiles\\Mods\\My Mods";
+
+//Base Path where you keep your private build keys
+var DSSignKeysPath = "F:\\Downloads\\My Games CFG\\ARMA3\\editing\\mod_keys";
+
+//Prefix appplied to any created sign Keys
+var DSSignFilePrefix = "LARs_";
 
 //DO NOT EDIT BELOW HERE!!
 
